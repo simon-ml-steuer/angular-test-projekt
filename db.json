@@ -20,7 +20,7 @@
           "id": 3,
           "idShort": "Location",
           "semanticId": "The current Location of the asset",
-          "value": ''
+          "value": ""
         }],
       "submodels": []
     },
@@ -32,19 +32,19 @@
           "id": 1,
           "idShort": "Width",
           "semanticId": "Width of the specified asset",
-          "value": ''
+          "value": ""
         },
         {        
           "id": 2,
           "idShort": "Length",
           "semanticId": "Length of the specified asset",
-          "value": ''
+          "value": ""
         },
         {
           "id": 3,
           "idShort": "Weight",
           "semanticId": "Weight of the specified asset",
-          "value": ''
+          "value": ""
         }],
       "submodels": []
     },
@@ -54,9 +54,33 @@
       "properties": [
         {
           "id": 1,
+          "idShort": "Owner",
+          "semanticId": "Current owner of the specified asset",
+          "value": ""
+        },
+        {
+          "id": 2,
+          "idShort": "Reperature",
+          "semanticId": "Repairs that were done to the asset",
+          "value": ""
+        },
+        {
+          "id": 3,
+          "idShort": "Errors",
+          "semanticId": "Errors of the specified asset",
+          "value": ""
+        }],
+        "submodels": []
+    }
+    {
+      "id": 4,
+      "name": "Digital-Nameplate Schrauber",
+      "properties": [
+        {
+          "id": 1,
           "idShort": "Type",
           "semanticId": "Type that describes asset",
-          "value": 'Instance'
+          "value": "Instance"
         },
         {
           "id": 2,
@@ -71,5 +95,5 @@
           "value": "Saarbrücken, Lyonerring 1, Meta-Level Software AG"
         }],
       "submodels": []
-    }
+    }]
 }
