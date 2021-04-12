@@ -18,8 +18,8 @@
         },
         {
           "id": 3,
-          "idShort": 'Location',
-          "semanticId": 'The current Location of the asset',
+          "idShort": "Location",
+          "semanticId": "The current Location of the asset",
           "value": ''
         }],
       "submodels": []
@@ -30,20 +30,20 @@
       "properties": [
         {
           "id": 1,
-          "idShort": 'Width',
-          "semanticId": 'Width of the specified asset',
+          "idShort": "Width",
+          "semanticId": "Width of the specified asset",
           "value": ''
         },
         {        
           "id": 2,
-          "idShort": 'Length',
-          "semanticId": 'Length of the specified asset',
+          "idShort": "Length",
+          "semanticId": "Length of the specified asset",
           "value": ''
         },
         {
           "id": 3,
-          "idShort": 'Weight',
-          "semanticId": 'Weight of the specified asset',
+          "idShort": "Weight",
+          "semanticId": "Weight of the specified asset",
           "value": ''
         }],
       "submodels": []
@@ -54,21 +54,21 @@
       "properties": [
         {
           "id": 1,
-          "idShort": 'Type',
-          "semanticId": 'Type that describes asset',
+          "idShort": "Type",
+          "semanticId": "Type that describes asset",
           "value": 'Instance'
         },
         {
           "id": 2,
-          "idShort": 'Manufactured',
-          "semanticId": 'Date, when the asset was manufactured',
-          "value": '07.04.2021'
+          "idShort": "Manufactured",
+          "semanticId": "Date, when the asset was manufactured",
+          "value": "07.04.2021"
         },
         {
           "id": 3,
-          "idShort": 'Location',
-          "semanticId": 'The current Location of the asset',
-          "value": 'Saarbrücken, Lyonerring 1, Meta-Level Software AG'
+          "idShort": "Location",
+          "semanticId": "The current Location of the asset",
+          "value": "Saarbrücken, Lyonerring 1, Meta-Level Software AG"
         }],
       "submodels": []
     }
