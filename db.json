@@ -1,31 +1,75 @@
 {
-  "posts": [
+  "ExampleSubmodels": [
     {
       "id": 1,
-      "title": "Post 1"
+      "name": "Digital Nameplate",
+      "properties": [ 
+        {
+          "id": 1,
+          "idShort": "Type",
+          "semanticId": "Type that describes asset",
+          "value": ""
+        },
+        {
+          "id": 2,
+          "idShort": "Manufactured",
+          "semanticId": "Date, when the asset was manufactured",
+          "value": ""
+        },
+        {
+          "id": 3,
+          "idShort": 'Location',
+          "semanticId": 'The current Location of the asset',
+          "value": ''
+        }],
+      "submodels": []
     },
     {
       "id": 2,
-      "title": "Post 2"
+      "name": "Technical Specification",
+      "properties": [
+        {
+          "id": 1,
+          "idShort": 'Width',
+          "semanticId": 'Width of the specified asset',
+          "value": ''
+        },
+        {        
+          "id": 2,
+          "idShort": 'Length',
+          "semanticId": 'Length of the specified asset',
+          "value": ''
+        },
+        {
+          "id": 3,
+          "idShort": 'Weight',
+          "semanticId": 'Weight of the specified asset',
+          "value": ''
+        }],
+      "submodels": []
     },
     {
       "id": 3,
-      "title": "Post 3"
+      "name": "Documentation",
+      "properties": [
+        {
+          "id": 1,
+          "idShort": 'Type',
+          "semanticId": 'Type that describes asset',
+          "value": 'Instance'
+        },
+        {
+          "id": 2,
+          "idShort": 'Manufactured',
+          "semanticId": 'Date, when the asset was manufactured',
+          "value": '07.04.2021'
+        },
+        {
+          "id": 3,
+          "idShort": 'Location',
+          "semanticId": 'The current Location of the asset',
+          "value": 'Saarbrücken, Lyonerring 1, Meta-Level Software AG'
+        }],
+      "submodels": []
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
 }
